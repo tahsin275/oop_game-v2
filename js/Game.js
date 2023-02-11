@@ -64,7 +64,7 @@ class Game {
         if (this.missed >= 5) {
             this.gameOver("lose");
         } else {
-            hearts[hearts.length - this.missed].src = "../images/lostHeart.png";
+            hearts[hearts.length - this.missed].src = "./images/lostHeart.png";
         }
     }
 
